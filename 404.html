@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Page not found — Joseph Ogle</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          var theme =
+            stored === "light" || stored === "dark"
+              ? stored
+              : window.matchMedia("(prefers-color-scheme: light)").matches
+                ? "light"
+                : "dark";
+          document.documentElement.dataset.theme = theme;
+        } catch (error) {
+          document.documentElement.dataset.theme = "dark";
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <main class="wrap hero" style="min-height: 70vh">
+      <div>
+        <p class="kicker">404</p>
+        <h1>That orbit is empty.</h1>
+        <p class="lede">The page you asked for is not on this site.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="/">Back to Joseph Ogle</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
