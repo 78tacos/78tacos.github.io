@@ -35,8 +35,8 @@ Then open [http://localhost:8080](http://localhost:8080). You can also open `ind
 
 ## Content sources
 
-- Contact, education, work history, and skills are taken from the captain-provided resume. **Resume content may be updated later by the captain.**
-- Project blurbs and repository links come from public GitHub READMEs and repo descriptions. Forks (`simplewall`, `dnscrypt-proxy`) and the empty `test` repo are omitted. No private CAN dashboard is listed.
+- Contact, education, work history, skills, and hobbies are taken from the captain-provided resume. **Resume content may be updated later by the captain.**
+- Project blurbs and repository links follow the public GitHub scout dossier (repo descriptions and READMEs). Forks (`simplewall`, `dnscrypt-proxy`) and the empty `test` repo are omitted. No private CAN dashboard is listed.
 
 If a fact is missing from those sources, it is not invented here.
 
