@@ -44,7 +44,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 4.75rem;
+  scroll-padding-top: 5.5rem;
 }
 
 html:focus-within {
@@ -129,7 +129,7 @@ a:hover {
   top: 0;
   z-index: 40;
   backdrop-filter: blur(16px);
-  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  background: color-mix(in srgb, var(--bg) 94%, transparent);
   border-bottom: 1px solid var(--line);
 }
 
@@ -352,7 +352,7 @@ a:hover {
   z-index: 1;
   padding: 3.2rem 0;
   border-top: 1px solid var(--line);
-  scroll-margin-top: 4.75rem;
+  scroll-margin-top: 5.5rem;
 }
 
 .section-head {
