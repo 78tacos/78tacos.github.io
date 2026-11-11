@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Build log — Joseph Ogle</title>
+    <meta
+      name="description"
+      content="Build log for Joseph Ogle. Notes on AeroTest, CAN tooling, and IT utilities. Coming soon."
+    />
+    <meta name="theme-color" content="#0e141b" />
+    <link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../css/fonts.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <script>
+      (function () {
+        try {
+          var stored = localStorage.getItem("theme");
+          var theme =
+            stored === "light" || stored === "dark"
+              ? stored
+              : window.matchMedia("(prefers-color-scheme: light)").matches
+                ? "light"
+                : "dark";
+          document.documentElement.dataset.theme = theme;
+        } catch (error) {
+          document.documentElement.dataset.theme = "dark";
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="wordmark" href="../index.html">
+          <svg class="wordmark-mark" viewBox="0 0 64 64" aria-hidden="true" focusable="false">
+            <rect width="64" height="64" rx="12" fill="currentColor" opacity="0.08" />
+            <path fill="currentColor" d="M32 8 L36.2 27 L56 36.5 L38.2 34.2 L35.2 52 L32 44 L28.8 52 L25.8 34.2 L8 36.5 L27.8 27 Z" />
+          </svg>
+          78tacos
+        </a>
+        <nav id="site-nav" class="site-nav" data-nav aria-label="Primary">
+          <a href="../index.html#about">About</a>
+          <a href="../index.html#aerotest">AeroTest</a>
+          <a href="../index.html#projects">Projects</a>
+          <a href="../index.html#skills">Skills</a>
+          <a href="../index.html#experience">Experience</a>
+          <a href="../index.html#education">Education</a>
+          <a href="../index.html#outside">Outside</a>
+          <a href="index.html" aria-current="page">Blog</a>
+          <a href="../index.html#contact">Contact</a>
+        </nav>
+        <div class="header-actions">
+          <button class="icon-btn" type="button" data-theme-toggle aria-pressed="true" aria-label="Switch to light theme">
+            <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <circle cx="12" cy="12" r="3.2" fill="none" stroke="currentColor" stroke-width="1.6" />
+              <path fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" d="M12 3.5v2.2M12 18.3v2.2M3.5 12h2.2M18.3 12h2.2M6 6l1.6 1.6M16.4 16.4 18 18M18 6l-1.6 1.6M7.6 16.4 6 18" />
+            </svg>
+            <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="none" stroke="currentColor" stroke-width="1.6" d="M15.5 3.8A8.2 8.2 0 1 0 20.2 15 6.4 6.4 0 0 1 15.5 3.8z" />
+            </svg>
+          </button>
+          <button
+            class="menu-toggle"
+            type="button"
+            data-menu-toggle
+            aria-expanded="false"
+            aria-controls="site-nav"
+            aria-label="Open menu"
+          >
+            <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section" aria-labelledby="blog-title">
+        <div class="wrap">
+          <p class="kicker">Blog</p>
+          <h1 class="page-title" id="blog-title">Build log</h1>
+          <p class="lede">Short notes on AeroTest, CAN tooling, and the IT utilities will be linked here.</p>
+          <!--
+            Add a post:
+            1. Duplicate blog/posts/_template.html as blog/posts/YYYY-MM-DD-slug.html.
+            2. Set the title, date, and body. Remove the noindex tag.
+            3. Add an item to the list below. The coming-soon line hides once an item exists.
+
+            <li>
+              <article>
+                <p class="when"><time datetime="2026-04-02">April 2, 2026</time></p>
+                <h3><a href="posts/2026-04-02-slug.html">Title</a></h3>
+                <p>One-sentence deck.</p>
+              </article>
+            </li>
+          -->
+          <ol class="post-list"></ol>
+          <p class="coming-soon">Coming soon.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <p>© <span data-year>2026</span> Joseph Ogle. MIT-licensed site source.</p>
+        <p>Original SVG artwork. Fonts under the SIL Open Font License. No analytics.</p>
+      </div>
+    </footer>
+    <script src="../js/main.js" defer></script>
+  </body>
+</html>
