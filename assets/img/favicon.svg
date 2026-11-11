@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Joseph Ogle">
-  <rect width="64" height="64" rx="14" fill="#0b1014"/>
-  <circle cx="32" cy="32" r="22" fill="none" stroke="#e3b34c" stroke-width="1.5"/>
-  <circle cx="32" cy="32" r="14" fill="none" stroke="#5ad4c8" stroke-width="1.25"/>
-  <circle cx="32" cy="32" r="4" fill="#e07a4a"/>
-  <circle cx="32" cy="10" r="3" fill="#e3b34c"/>
-  <circle cx="46" cy="32" r="2.4" fill="#5ad4c8"/>
+  <!-- Original mark. Not a third-party logo and not a specific aircraft. -->
+  <rect width="64" height="64" rx="12" fill="#0E141B"/>
+  <path fill="#E6B325" d="M32 7 L36.5 27 L57 37 L39 34.5 L35.5 54 L32 45 L28.5 54 L25 34.5 L7 37 L27.5 27 Z"/>
 </svg>
